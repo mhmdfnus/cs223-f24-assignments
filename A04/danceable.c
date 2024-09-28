@@ -1,7 +1,11 @@
 /*----------------------------------------------
  * Author: Mohammad Fanous
  * Date: 09/27/2024
+<<<<<<< HEAD
  * Description: Danceability Song Directory
+=======
+ * Description
+>>>>>>> 69e57a2a1de7364482fcecf581e4d9523aa22c5f
  ---------------------------------------------*/
 #include <stdio.h>
 #include <stdlib.h>
@@ -115,6 +119,7 @@ void clear_list(struct node* head) {
 }
 
 int main() {
+<<<<<<< HEAD
   FILE* infile;
   char buff[256]; // Increased buffer size for longer lines
   struct node* head = NULL;
@@ -185,5 +190,8 @@ int main() {
 
   // Clean up remaining memory
   clear_list(head);
+=======
+  
+>>>>>>> 69e57a2a1de7364482fcecf581e4d9523aa22c5f
   return 0;
 }
