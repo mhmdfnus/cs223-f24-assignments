@@ -1,3 +1,8 @@
+/*
+Author: Mohammad Fanous
+Date: 11/8/2024
+this program is a multi-threaded version of the single process program to output a PPM image of the mandelbrot set where each of the 4 threads is responsible for computing a quadrant of the final image
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

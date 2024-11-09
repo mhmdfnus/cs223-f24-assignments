@@ -1,3 +1,9 @@
+/*
+Author: Mohammad Fanous
+Date: 11/8/2024
+this program is a single process that outputs a PPM image of the mandelbrot set
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
