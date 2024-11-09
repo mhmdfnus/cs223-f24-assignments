@@ -2,8 +2,14 @@
 
 Where did your run your tests? A laptop, or goldengate?
 
+Macbook Air 
+
 What are the performance specifications of the machine: number and speed of
 processors, size of RAM? (use `lscpu` and `free -m`)
+
+Chip: Apple M1
+Total Number of Cores: 8 (4 performance and 4 efficiency)
+Memory: 16 GB
 
 = Single-process mandelbrot
 
@@ -13,11 +19,11 @@ the amount of time it takes to compute each image.
 [cols="1,1"]
 !===
 | Size | Time (s) 
-| 100 | todo
-| 400 | todo
-| 800 | todo
-| 1000 | todo
-| 2000 | todo
+| 100 |0.042819 
+| 400 | 0.337326
+| 800 | 1.236597
+| 1000 | 1.907114
+| 2000 | 7.517735
 !===
 
 = Multi-process mandelbrot
@@ -28,11 +34,11 @@ the amount of time it takes to compute each image.
 [cols="1,1"]
 !===
 | Size | Time (s) 
-| 100 | todo
-| 400 | todo
-| 800 | todo
-| 1000 | todo
-| 2000 | todo
+| 100 | 0.021516
+| 400 | 0.166859
+| 800 | 0.563655
+| 1000 | 0.858190
+| 2000 | 3.334416
 !===
-
+with threads, computing images is much faster!
 
