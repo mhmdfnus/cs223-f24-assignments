@@ -1,3 +1,8 @@
+/*                                                                              
+Author: Mohammad Fanous                                                         
+Date: 12/1/2024                                                                 
+this program is a simplified implementation of the bash command grep      
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
