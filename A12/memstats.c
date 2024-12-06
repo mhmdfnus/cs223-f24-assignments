@@ -1,3 +1,10 @@
+/*
+Author: Mohammad Fanous
+Date: 12/6/2024
+this program prints out memory stats for the simplified
+implementation of malloc/free mylloc_list.c
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
